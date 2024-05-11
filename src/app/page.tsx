@@ -1,7 +1,14 @@
-import React from 'react'
+import HeroSection from "@/components/HeroSection";
+import SecondPage from "@/components/SecondPage";
 
-export default function age() {
+
+export default function Home() {
   return (
-    <main></main>
-  )
+    <main className="min-h-screen bg-black/[0.93] antialiased
+        bg-grid-white/[0.02]">
+      <HeroSection />
+      <SecondPage />
+    </main>
+
+  );
 }
