@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import MyProjects from "@/components/MyProjects";
 import SecondPage from "@/components/SecondPage";
 
 
@@ -8,6 +9,7 @@ export default function Home() {
         bg-grid-white/[0.02]">
       <HeroSection />
       <SecondPage />
+      <MyProjects />
     </main>
 
   );

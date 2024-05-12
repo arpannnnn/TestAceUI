@@ -12,10 +12,10 @@ export default function SecondPage() {
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-700 font-semibold tracking-wide uppercase">
-            "Focus Powers Mastery! "
+            "Jay Nepal "
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Projects
+            Nepal
           </p>
         </div>
       </div>
@@ -24,14 +24,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
+              src="/no3.avif"
+              alt="nepal"
               height="400"
               width="400"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+              Mountain Evt.
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -50,14 +50,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
+              src="/no6.avif"
+              alt="nepal"
               height="400"
               width="400"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+              Fewa Lake
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -76,14 +76,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
+              src="/no4.avif"
+              alt="nepal"
               height="400"
               width="400"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+              Nepal Flag
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -102,14 +102,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
+              src="/no5.avif"
+              alt="nepal"
               height="400"
               width="400"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+            Buddha Stupa
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -128,14 +128,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
+              src="/no6.avif"
+              alt="nepal"
               height="400"
               width="400"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+              Fewa Lake
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -154,14 +154,14 @@ export default function SecondPage() {
         <div>
           <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-6 md:p-10 bg-white dark:bg-zinc-900">
             <Image
-              src="/Sallu.jpg"
-              alt="jordans"
-              height="400"
-              width="400"
+              src="/no5.avif"
+              alt="nepal"
+              height="200"
+              width="200"
               className="object-contain w-full"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-              Salman Khan
+            Buddha Stupa
             </p>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
