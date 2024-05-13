@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/ui/Navbar";
+import { NavbarSticky } from "@/components/ui/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <div className="relative w-full flex items-center justify-center">
-          <Navbar />
+          <NavbarSticky />
         </div>
         {children}</body>
     </html>

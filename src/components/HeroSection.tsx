@@ -16,11 +16,11 @@ export default function HeroSection() {
                 <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto ">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, molestias deleniti, nam facere aut mollitia perferendis libero laborum voluptatum optio, voluptates placeat ad blanditiis necessitatibus praesentium est ex eveniet doloribus.</p>
                 <div className="mt-4">
-                    <Link href={"/courses"}>
+                  {/*  <Link href={"/courses"}>
                         <Button borderRadius="1.75rem" className="bg-white dark:bg-black text-black dark:text-white 
                         border-neutral-200 dark:border-slate-800">
                             Explore More </Button>
-                    </Link>
+    </Link> */}
 
                 </div>
             </div>

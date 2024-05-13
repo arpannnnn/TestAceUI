@@ -1,41 +1,32 @@
 "use client";
-import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
-import { cn } from "../../app/utils/cn";
-
-function Navbar({ className }: { className?: string }) {
-  const [active, setActive] = useState<string | null>(null);
+import React from "react";
+import { FloatingNav } from "../ui/floating-navbar";
+import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+export function NavbarSticky() {
+  const navItems = [
+    {
+      name: "Hello",
+      link: "/",
+      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Baby",
+      link: "/",
+      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "What's Up",
+      link: "/",
+      icon: (
+        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+  ];
   return (
-    <div
-      className={cn("fixed top-10   inset-x-0 max-w-2xl mx-auto z-50", className)}
-    >
-      <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/">Web Development</HoveredLink>
-
-          </div>
-        </MenuItem>
-
-
-        <MenuItem setActive={setActive} active={active} item="Home">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/">Web Development</HoveredLink>
-            <HoveredLink href="/">Interface Design</HoveredLink>
-
-            <HoveredLink href="/">Branding</HoveredLink>
-          </div>
-        </MenuItem>
-
-        <MenuItem setActive={setActive} active={active} item="Contact Us">
-
-        </MenuItem>
-
-
-      </Menu>
+    <div className="relative  w-full">
+      <FloatingNav navItems={navItems} />
+      
     </div>
-
-  )
+  );
 }
 
-export default Navbar

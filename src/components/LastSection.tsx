@@ -33,10 +33,10 @@ export function LastSection() {
           </p>
         </div>
         <Image
-          src="/linear.webp"
+          src="/"
           width={500}
           height={500}
-          alt="linear demo image"
+          alt=""
           className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
         />
       </WobbleCard>
@@ -60,7 +60,7 @@ export function LastSection() {
           </p>
         </div>
         <Image
-          src="/linear.webp"
+          src="/"
           width={500}
           height={500}
           alt="linear demo image"
