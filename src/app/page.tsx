@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import { TextRevealCardPreview } from "@/components/HiddenText";
 import { LampSection } from "@/components/LampSection";
+import { LastSection } from "@/components/LastSection";
 import MyProjects from "@/components/MyProjects";
 import SecondPage from "@/components/SecondPage";
 import SlideCard from "@/components/SlideCard";
@@ -18,6 +19,7 @@ export default function Home() {
       <SecondPage />
       <MyProjects />
       <SlideCard />
+      <LastSection />
       < TextRevealCardPreview />
     </main>
 
