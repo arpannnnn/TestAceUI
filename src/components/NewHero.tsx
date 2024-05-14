@@ -25,12 +25,12 @@ export function HeroNew() {
                 }}
                 className="z-50 flex flex-col justify-center items-center"
             >
-                <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+                <motion.p className="font-bold text-xl md:text-6xl mt-40 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-8">
                     Explore Nepal's captivating beauty,<br />where every corner tells a tale.
                 </motion.p>
-                <div className="mt-9">
+                <div className="mt-28">
                     <Button borderRadius="1.75rem" className="bg-white dark:bg-black text-black dark:text-white 
-                        border-neutral-200 dark:border-slate-800 from-transparent via-emerald-500 to-transparent">
+                        border-neutral-200  dark:border-slate-800 from-transparent via-emerald-500 to-transparent">
                         Explore More </Button> </div>
             </motion.div>
         </ImagesSlider>

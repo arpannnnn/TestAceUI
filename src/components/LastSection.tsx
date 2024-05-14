@@ -25,11 +25,10 @@ export function LastSection() {
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+          Pixel Picasso
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          Behold, my digital Mona Lisas. Each pixel meticulously placed, each line of code a stroke of genius. Prepare to have your socks knocked off.
           </p>
         </div>
         <Image
@@ -42,21 +41,23 @@ export function LastSection() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
+        Code Connoisseur
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+        Welcome to my kingdom of ones and zeros, where I reign supreme as the mighty Code Overlord. Bugs fear me, browsers bow before me. Let's dive deep into the labyrinth of logic together.
+
+
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Signup for blazing-fast cutting-edge state of the art Gippity AI
-            wrapper today!
+          Tech Tinkerer
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+          Ever seen a digital MacGyver in action? That's me. I can turn a pile of circuitry and coffee-stained napkins into a masterpiece of technological ingenuity. Let's get our hands dirty and build something legendary.
+
+
           </p>
         </div>
         <Image

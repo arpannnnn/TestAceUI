@@ -13,8 +13,8 @@ export default function HeroSection() {
                     fill="white"
                 />
                 <h1 className=" mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">ARPAN ACHARYA</h1>
-                <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto ">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, molestias deleniti, nam facere aut mollitia perferendis libero laborum voluptatum optio, voluptates placeat ad blanditiis necessitatibus praesentium est ex eveniet doloribus.</p>
+                <p className="mt-10 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto ">
+                I don't do mediocre. Nope. With my killer combo of design finesse and coding wizardry, I craft websites that are sleeker than a freshly waxed Ferrari and smoother than a silicon crystal. And they work on everything, from your grandma's ancient desktop to your kid's latest-gen tablet.</p>
                 <div className="mt-4">
                   {/*  <Link href={"/courses"}>
                         <Button borderRadius="1.75rem" className="bg-white dark:bg-black text-black dark:text-white 
