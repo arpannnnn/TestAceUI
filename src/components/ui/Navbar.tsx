@@ -7,12 +7,17 @@ export function NavbarSticky() {
     {
       name: "Hello",
       link: "/",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon:(
+
+       <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     },
     {
       name: "Baby",
       link: "/",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: (
+      <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     },
     {
       name: "What's up",
